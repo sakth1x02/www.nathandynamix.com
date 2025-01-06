@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Dynamix</title>
+    <link rel="icon" type="image/png" href="https://nathandynamix-bucket.s3.ap-south-1.amazonaws.com/ND+logo.png" sizes="16x16">
+
+</head>
+<body>
+    <header class="header">
+        <img src="https://nathandynamix-bucket.s3.ap-south-1.amazonaws.com/ND+logo.png" alt="ND Logo" class="logo">
+        <div class="header-content">
+            <h1>Welcome to Nathan Dynamix</h1>
+            <p>The foundation of innovation and the driving force behind businesses that make a difference.</p>
+        </div>
+
+        
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <section class="company-overview">
+            <p>As a parent company, we bring together expertise, creativity, and commitment to excellence, fostering ventures that span finance, lighting, productivity, and hospitality. Nathan Dynamix is more than a company – it’s a vision of a brighter, more connected future.</p>
+        </section>
+        <section class="venture" id="nathan-accounts">
+            <h2>Nathan Accounts</h2>
+            <p>Your trusted partner for seamless financial management. From accounting solutions to business consulting, we simplify complex financial tasks to help individuals and organizations focus on growth and success. Our dedication to accuracy and efficiency ensures your finances are in the best hands.</p>
+        </section>
+        <section class="venture" id="nathan-lights">
+            <h2>Nathan Lights</h2>
+            <p>Illuminating the path to exceptional lighting experiences. Specializing in innovative designs, including our luxurious resin chandelier lamps, we combine artistry and technology to create lighting solutions that elevate every space. Our mission is to brighten lives with elegance and style.</p>
+        </section>
+        <section class="venture" id="nathan-food-court">
+            <h2>Nathan Food Court</h2>
+            <p>Where taste meets excellence. With a focus on delivering delicious and memorable culinary experiences, we bring people together to celebrate food and culture. Whether it’s a quick bite or a leisurely meal, Nathan Food Court promises quality and flavor in every dish.</p>
+        </section>
+        <section class="venture" id="n-prime-time">
+            <h2>N-PrimeTime</h2>
+            <p>A to-do list platform designed to empower productivity and organization. Tailored for modern lifestyles, it helps users stay on top of their goals with ease and efficiency. At N-PrimeTime, we believe in turning plans into achievements, one task at a time.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Nathan Dynamix. All Rights Reserved.</p>
+    </footer>
+
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.header {
+    background-color: #1d3557;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header-content {
+    flex: 1;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+.nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    background-color: #1d3557;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 1.2rem; 
+    padding: 10px 15px; 
+    display: block; 
+    transition: background-color 0.3s; 
+}
+
+.nav a:hover {
+    background-color: #457b9d; 
+    border-radius: 5px; 
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.company-overview {
+    background: #e9ecef;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.venture {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.venture h2 {
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+.venture p {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    background: #1d3557;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+    }
+    .nav li {
+        margin: 10px 0;
+    }
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding: 15px;
+    }
+    .company-overview, .venture {
+        padding: 10px;
+    }
+    .header-content h1 {
+        font-size: 2rem;
+    }
+    .nav a {
+        font-size: 1rem; /* Slightly smaller text for navigation */
+    }
+}
+
+@media (min-width: 1025px) {
+    .nav ul {
+        justify-content: space-around;
+    }
+    .nav a {
+        font-size: 1.2rem;
+    }
+}
+
+    </style>
+</body>
+</html>
